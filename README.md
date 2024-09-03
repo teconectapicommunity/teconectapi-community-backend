@@ -31,7 +31,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 1. Clone o repositório para a sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/teconectapi-community-backend.git
+   git clone https://github.com/teconectapicommunity/teconectapi-community-backend.git
    ```
 
 2. Navegue até o diretório do projeto:

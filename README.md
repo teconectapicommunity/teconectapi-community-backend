@@ -1,5 +1,6 @@
 # Teconectapi Community - Backend
 
+
 Este repositório contém o backend da aplicação **Teconectapi Community**, desenvolvido utilizando **Node.js** e **Express**. O objetivo deste projeto é fornecer uma API para gerenciar os membros da comunidade, permitindo operações de cadastro, visualização, atualização e exclusão.
 
 ## Índice

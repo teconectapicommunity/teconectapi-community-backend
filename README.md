@@ -141,4 +141,3 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 3. Substitua qualquer link ou nome de usuário específico conforme necessário.
 4. Faça um commit do arquivo `README.md` e o empurre para o repositório.
 
-Assim, qualquer desenvolvedor que clone o repositório terá todas as informações necessárias para configurar o ambiente e contribuir com o projeto.

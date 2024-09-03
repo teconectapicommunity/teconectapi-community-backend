@@ -1,21 +1,20 @@
-
-
-```markdown
 # Teconectapi Community - Backend
+
 
 Este repositório contém o backend da aplicação **Teconectapi Community**, desenvolvido utilizando **Node.js** e **Express**. O objetivo deste projeto é fornecer uma API para gerenciar os membros da comunidade, permitindo operações de cadastro, visualização, atualização e exclusão.
 
-## **Índice**
+## Índice
 
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
-- [Configuração](#configuração)
-- [Scripts Disponíveis](#scripts-disponíveis)
-- [Estrutura de Pastas](#estrutura-de-pastas)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
+- Pré-requisitos:
 
-## **Pré-requisitos**
+```sh
+- Node Js
+- Express
+- Prisma ORM ?
+- Mysql
+- Postman
+```
+
 
 Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
@@ -26,27 +25,29 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
 ## **Instalação**
 
-1. Clone o repositório para a sua máquina local:
+1. Faça um Fork do repositório para a sua máquina local:
+
+2. em seguida faça um clone 
 
    ```bash
    git clone https://github.com/teconectapicommunity/teconectapi-community-backend.git
    ```
 
-2. Navegue até o diretório do projeto:
+3. Navegue até o diretório do projeto:
 
    ```bash
    cd teconectapi-community-backend
    ```
 
-3. Instale as dependências necessárias:
+4. Instale as dependências necessárias:
 
    ```bash
    npm install
    ```
 
-## **Configuração**
+## Configuração
 
-1. **Configurar o Banco de Dados MySQL:**
+1. Configurar o Banco de Dados MySQL:
 
    - Certifique-se de que o MySQL está rodando.
    - Crie o banco de dados `comunidade`:
@@ -55,7 +56,7 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
      CREATE DATABASE comunidade;
      ```
 
-2. **Configurar as Variáveis de Ambiente:**
+2. Configurar as Variáveis de Ambiente:
 
    - Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis:
 
@@ -70,13 +71,13 @@ Antes de começar, certifique-se de ter o seguinte instalado em sua máquina:
 
    - Ajuste `DB_USER` e `DB_PASSWORD` conforme a configuração do seu MySQL.
 
-## **Scripts Disponíveis**
+## Scripts Disponíveis
 
 No diretório do projeto, você pode executar os seguintes scripts:
 
 - **`npm run dev`**: Inicia o servidor em modo de desenvolvimento utilizando `nodemon`.
 
-## **Estrutura de Pastas**
+## Estrutura de Pastas
 
 A estrutura principal do projeto é a seguinte:
 
@@ -85,7 +86,9 @@ backend/
 ├── node_modules/         # Módulos do Node.js
 ├── routes/               # Rotas da API
 │   └── members.js        # Rotas para gerenciamento de membros
-├── db.js                 # Configuração do banco de dados
+├── database/
+    models/members.model.js
+    db.js                 # Configuração do banco de dados
 ├── index.js              # Ponto de entrada da aplicação
 ├── package.json          # Configurações do projeto e dependências
 ├── .env                  # Arquivo de variáveis de ambiente (não incluído no repositório)
@@ -108,7 +111,6 @@ Contribuições são bem-vindas! Para contribuir, siga os passos abaixo:
    ```bash
    git commit -m 'Adiciona minha nova feature'
    ```
-
 4. Faça o push para a branch:
 
    ```bash

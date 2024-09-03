@@ -124,20 +124,14 @@ Contribuições são bem-vindas! Para contribuir, siga os passos abaixo:
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 ```
 
-### **Explicação de Cada Seção**
+## xplicação de Cada Seção
 
-- **Pré-requisitos**: Lista o software necessário para rodar o projeto.
-- **Instalação**: Explica como clonar o repositório e instalar as dependências.
-- **Configuração**: Orienta sobre como configurar o banco de dados e as variáveis de ambiente.
-- **Scripts Disponíveis**: Lista os scripts npm que podem ser executados.
-- **Estrutura de Pastas**: Dá uma visão geral da estrutura do projeto.
-- **Contribuindo**: Fornece um guia passo a passo para contribuir com o projeto.
-- **Licença**: Informa sobre a licença do projeto.
+- Pré-requisitos: Lista o software necessário para rodar o projeto.
+- Instalação: Explica como clonar o repositório e instalar as dependências.
+- Configuração: Orienta sobre como configurar o banco de dados e as variáveis de ambiente.
+- Scripts Disponíveis: Lista os scripts npm que podem ser executados.
+- Estrutura de Pastas: Dá uma visão geral da estrutura do projeto.
+- Contribuindo: Fornece um guia passo a passo para contribuir com o projeto.
+- Licença: Informa sobre a licença do projeto.
 
-### **Como Usar o `README.md`**
-
-1. Crie o arquivo `README.md` na raiz do repositório.
-2. Copie o conteúdo acima para o arquivo.
-3. Substitua qualquer link ou nome de usuário específico conforme necessário.
-4. Faça um commit do arquivo `README.md` e o empurre para o repositório.
 

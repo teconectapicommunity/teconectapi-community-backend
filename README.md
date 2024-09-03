@@ -1,6 +1,4 @@
-Claro! Vou criar um arquivo `README.md` detalhado para o seu projeto. Esse arquivo servirá como guia para outros desenvolvedores entenderem como configurar o ambiente, contribuir com o projeto, e seguir as boas práticas. 
 
-### **Exemplo de `README.md`**
 
 ```markdown
 # Teconectapi Community - Backend

@@ -2,7 +2,8 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const db = require('./db'); // Módulo de conexão ao banco de dados
+const db = require('./config/db');  // Certifique-se de que o caminho está correto
+ // Módulo de conexão ao banco de dados
 
 // Inicialize a aplicação Express
 const app = express();
